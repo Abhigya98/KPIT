@@ -6,7 +6,7 @@ int main()
     char c[20],d[20],e[20];
     int i=0,l=0,j=0;
     printf("Enter a string\n");
-    scanf("%20s",c);
+    scanf("%19s",c);
     printf("The string is %s\n",c);
     while(c[i]!='\0')
     {
@@ -19,7 +19,7 @@ int main()
     printf("The copied string is %s\n",d);
 
     printf("Enter the string to concatenate: ");
-    scanf("%20s",e);
+    scanf("%19s",e);
     for(i=l;e[j]!='\0';i++)
     {
         c[i]=e[j];
